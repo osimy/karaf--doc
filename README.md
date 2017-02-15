@@ -12,3 +12,11 @@ FROM dockerfile/java
  +VOLUME ["/deploy"]
  +EXPOSE 1099 8101 44444
  +ENTRYPOINT ["/opt/karaf/bin/karaf"]
+
+docker run -d -t \
+  --name karaf \
+  -p 1099:1099 \
+  -p 8101:8101 \
+  -p 44444:44444 \
+  -v /host/path/deploy:/deploy \
+  osimy/karaf
