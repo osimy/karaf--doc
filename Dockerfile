@@ -1,6 +1,6 @@
 FROM java:7-jdk
-MAINTAINER mkroli
-ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
+MAINTAINER osimy
+ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64
 
 ENV KARAF_VERSION=4.0.8
 
