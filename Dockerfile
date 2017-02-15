@@ -1,6 +1,6 @@
 FROM java:7-jdk
 MAINTAINER osimy
-ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64
+ENV JAVA_HOME /usr/lib/jvm/jre
 
 ENV KARAF_VERSION=4.0.8
 
